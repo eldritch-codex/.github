@@ -8,7 +8,7 @@ Each project grows one small working step at a time.
 
 ## Projects
 
-- **[Nodens](https://github.com/eldritch-codex/nodens)**: a C++23 application framework built on modules. An app is a stack of layers on top of an interactive loop, with a thread-safe event bus, a multi-threaded job system, windows and input (GLFW), logging (spdlog), an immediate-mode GUI (Dear ImGui and ImPlot) and Tracy profiling built in. Linux for now.
+- **[Nodens](https://github.com/eldritch-codex/nodens)**: a C++23 application framework built on modules. An app is a stack of layers on top of an interactive loop, with a thread-safe event bus, a multi-threaded task system, windows and input (GLFW), logging (spdlog), an immediate-mode GUI (Dear ImGui and ImPlot) and Tracy profiling built in. Linux for now.
 - **[Nyar](https://github.com/eldritch-codex/nyar)**: a real-time Vulkan renderer, built as a separate module for Nodens. It starts from the Khronos "Drawing a triangle" tutorial and is being refactored, step by step, into a clean rendering API that Nodens applications import.
 - **Armitage**: a personal agent and research toolkit. It keeps a coding agent honest: every factual claim has to point to your code, your Zotero library or its own memory, or it is cut or marked unverified. Its core stays small, and other tools plug in as plugins that declare what the agent may reach. (Private preview.)
 
